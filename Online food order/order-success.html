@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Successful | EatEase</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                🍔 EatEase
+            </a>
+        </div>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+        <div class="nav-right">
+            <a href="cart.html" class="cart-button">
+                🛒 Cart
+                <span id="cart-count">0</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- SUCCESS SECTION -->
+    <section class="success-section">
+        <div class="success-card">
+
+            <!-- SUCCESS ANIMATION -->
+            <div class="success-icon">
+                ✓
+            </div>
+
+            <!-- SUCCESS MESSAGE -->
+            <p class="success-label">
+                ORDER CONFIRMED
+            </p>
+            <h1>
+                Order Placed
+                <span>Successfully!</span>
+            </h1>
+            <p class="success-description">
+                Thank you for choosing EatEase!
+                Your delicious food is being prepared.
+                We hope you enjoy your meal.
+            </p>
+
+            <!-- ORDER ID -->
+            <div class="order-id-box">
+                <p>YOUR ORDER ID</p>
+                <h2 id="success-order-id">
+                    Loading...
+                </h2>
+            </div>
+
+            <!-- ORDER DETAILS -->
+            <div class="success-details">
+                <h3>📋 Order Information</h3>
+                <div class="success-detail-row">
+                    <span>Customer Name</span>
+                    <strong id="success-customer-name">
+                        Loading...
+                    </strong>
+                </div>
+                <div class="success-detail-row">
+                    <span>Phone Number</span>
+                    <strong id="success-phone">
+                        Loading...
+                    </strong>
+                </div>
+                <div class="success-detail-row">
+                    <span>Payment Method</span>
+                    <strong id="success-payment">
+                        Loading...
+                    </strong>
+                </div>
+                <div class="success-detail-row">
+                    <span>Order Date</span>
+                    <strong id="success-date">
+                        Loading...
+                    </strong>
+                </div>
+                <div class="success-detail-row">
+                    <span>Order Status</span>
+                    <strong class="order-status" id="success-status">
+                        Confirmed
+                    </strong>
+                </div>
+            </div>
+
+            <!-- DELIVERY ADDRESS -->
+            <div class="success-address">
+                <h3>📍 Delivery Address</h3>
+                <p id="success-address">
+                    Loading delivery address...
+                </p>
+            </div>
+
+            <!-- ORDERED ITEMS -->
+            <div class="success-items-container">
+                <h3>🛒 Ordered Food Items</h3>
+                <div id="success-items">
+                    <!-- JavaScript will display ordered items here -->
+                </div>
+            </div>
+
+            <!-- TOTAL AMOUNT -->
+            <div class="success-total">
+                <span>Total Amount Paid / Payable</span>
+                <strong id="success-total">
+                    ₹0
+                </strong>
+            </div>
+
+            <!-- THANK YOU MESSAGE -->
+            <div class="thank-you-message">
+                ❤️ Thank you for ordering with EatEase!
+            </div>
+            <!-- ACTION BUTTONS -->
+            <div class="success-buttons">
+                <a href="index.html" class="btn-primary">
+                    ← Back to Home
+                </a>
+                <a href="menu.html" class="btn-secondary">
+                    Order More Food
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-about">
+                <h2>🍔 EatEase</h2>
+                <p>
+                    Your favourite food, delivered fresh and fast.
+                    Enjoy delicious meals anytime with EatEase.
+                </p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="cart.html">Cart</a>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: support@eatease.com</p>
+                <p>Phone: +91 0876543210</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>
+                © 2026 EatEase. All Rights Reserved.
+            </p>
+            <p>
+                Designed for University Project.
+            </p>
+        </div>
+    </footer>
+    <!-- JAVASCRIPT FILES -->
+    <script src="script.js"></script>
+    <script src="order-success.js"></script>
+</body>
+</html>
